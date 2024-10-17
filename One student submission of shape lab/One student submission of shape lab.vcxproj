@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{00b80ff1-5926-412e-ae18-cb83d6303949}</ProjectGuid>
-    <RootNamespace>October152024COSC1436001</RootNamespace>
+    <ProjectGuid>{ada68559-fdad-471d-bbf9-504582db682b}</ProjectGuid>
+    <RootNamespace>Onestudentsubmissionofshapelab</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>October15_2024-COSC1436.001 - Topic 6 - functions</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -128,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="October15_2024-COSC1436.001.cpp" />
+    <ClCompile Include="One student submission of shape lab.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

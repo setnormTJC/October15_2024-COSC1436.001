@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "October15_2024-COSC1436.001", "October15_2024-COSC1436.001\October15_2024-COSC1436.001.vcxproj", "{00B80FF1-5926-412E-AE18-CB83D6303949}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "October15_2024-COSC1436.001 - Topic 6 - functions", "October15_2024-COSC1436.001\October15_2024-COSC1436.001.vcxproj", "{00B80FF1-5926-412E-AE18-CB83D6303949}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "One student submission of shape lab", "One student submission of shape lab\One student submission of shape lab.vcxproj", "{ADA68559-FDAD-471D-BBF9-504582DB682B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "October17- demoing some more built-in C++ functions", "October17- demoing some more built-in C++ functions\October17- demoing some more built-in C++ functions.vcxproj", "{5E1E0279-56E7-4745-8A9D-D29B3B2AD170}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "October17- demoing header files and function prototypes", "October17- demoing header files and function prototypes\October17- demoing header files and function prototypes.vcxproj", "{70E68CF2-98A2-4230-A6C1-6281B9B720EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,30 @@ Global
 		{00B80FF1-5926-412E-AE18-CB83D6303949}.Release|x64.Build.0 = Release|x64
 		{00B80FF1-5926-412E-AE18-CB83D6303949}.Release|x86.ActiveCfg = Release|Win32
 		{00B80FF1-5926-412E-AE18-CB83D6303949}.Release|x86.Build.0 = Release|Win32
+		{ADA68559-FDAD-471D-BBF9-504582DB682B}.Debug|x64.ActiveCfg = Debug|x64
+		{ADA68559-FDAD-471D-BBF9-504582DB682B}.Debug|x64.Build.0 = Debug|x64
+		{ADA68559-FDAD-471D-BBF9-504582DB682B}.Debug|x86.ActiveCfg = Debug|Win32
+		{ADA68559-FDAD-471D-BBF9-504582DB682B}.Debug|x86.Build.0 = Debug|Win32
+		{ADA68559-FDAD-471D-BBF9-504582DB682B}.Release|x64.ActiveCfg = Release|x64
+		{ADA68559-FDAD-471D-BBF9-504582DB682B}.Release|x64.Build.0 = Release|x64
+		{ADA68559-FDAD-471D-BBF9-504582DB682B}.Release|x86.ActiveCfg = Release|Win32
+		{ADA68559-FDAD-471D-BBF9-504582DB682B}.Release|x86.Build.0 = Release|Win32
+		{5E1E0279-56E7-4745-8A9D-D29B3B2AD170}.Debug|x64.ActiveCfg = Debug|x64
+		{5E1E0279-56E7-4745-8A9D-D29B3B2AD170}.Debug|x64.Build.0 = Debug|x64
+		{5E1E0279-56E7-4745-8A9D-D29B3B2AD170}.Debug|x86.ActiveCfg = Debug|Win32
+		{5E1E0279-56E7-4745-8A9D-D29B3B2AD170}.Debug|x86.Build.0 = Debug|Win32
+		{5E1E0279-56E7-4745-8A9D-D29B3B2AD170}.Release|x64.ActiveCfg = Release|x64
+		{5E1E0279-56E7-4745-8A9D-D29B3B2AD170}.Release|x64.Build.0 = Release|x64
+		{5E1E0279-56E7-4745-8A9D-D29B3B2AD170}.Release|x86.ActiveCfg = Release|Win32
+		{5E1E0279-56E7-4745-8A9D-D29B3B2AD170}.Release|x86.Build.0 = Release|Win32
+		{70E68CF2-98A2-4230-A6C1-6281B9B720EE}.Debug|x64.ActiveCfg = Debug|x64
+		{70E68CF2-98A2-4230-A6C1-6281B9B720EE}.Debug|x64.Build.0 = Debug|x64
+		{70E68CF2-98A2-4230-A6C1-6281B9B720EE}.Debug|x86.ActiveCfg = Debug|Win32
+		{70E68CF2-98A2-4230-A6C1-6281B9B720EE}.Debug|x86.Build.0 = Debug|Win32
+		{70E68CF2-98A2-4230-A6C1-6281B9B720EE}.Release|x64.ActiveCfg = Release|x64
+		{70E68CF2-98A2-4230-A6C1-6281B9B720EE}.Release|x64.Build.0 = Release|x64
+		{70E68CF2-98A2-4230-A6C1-6281B9B720EE}.Release|x86.ActiveCfg = Release|Win32
+		{70E68CF2-98A2-4230-A6C1-6281B9B720EE}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

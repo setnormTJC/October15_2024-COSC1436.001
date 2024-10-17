@@ -3,6 +3,8 @@
 
 #include <iostream>
 
+#include<fstream> 
+
 using std::cout; 
 
 
@@ -10,10 +12,12 @@ using std::cout;
 @param the input is an INTEGER (tag-> similar to <html> <head> </head> 
 @return the input plus two! (this is somewhat similar to JavaDoc and Doxygen)
 */
-int addTwoToSomeInteger(int someNumber)
+int addTwoToSomeInteger(int inputNumber)
 {
 	//return "adfasdfads" -> syntax error 
-	return someNumber + 2; 
+	
+	int outputNumber = inputNumber + 2; 
+	return outputNumber; 
 }
 
 void displayMenuOptions()
@@ -30,6 +34,10 @@ void displayMenuOptions()
 
 int main()
 {
+
+	//built-in (pre-defined) functions in the C++ standard library 
+	//std::ifstream inputFile; 
+	//inputFile.seekg(std::ios::beg)
 	// "calling the function" 
 	int resultOfFunctionCall = addTwoToSomeInteger(77); 
 
@@ -41,7 +49,7 @@ int main()
 
 	//system("pause"); 
 
-	displayMenuOptions(); 
+	displayMenuOptions(); //this is called "calling the function" (AKA: a "function call")
 
 	int choice;
 	std::cin >> choice;
@@ -49,7 +57,7 @@ int main()
 	switch (choice)
 	{
 	case 1: 
-		cout << "These are you DMs\n";
+		cout << "These are your DMs\n";
 		break; 
 
 	case 2: 
