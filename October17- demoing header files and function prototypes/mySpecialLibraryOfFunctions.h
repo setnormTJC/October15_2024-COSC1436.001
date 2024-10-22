@@ -2,6 +2,7 @@
 
 #include<iostream>
 
+using std::cout; 
 
 
 int doSomethingElse(int inputNumber)
@@ -10,9 +11,27 @@ int doSomethingElse(int inputNumber)
 	return inputNumber * 2;
 }
 
+/*"overloading" a function*/
+int doSomethingElse(int a, int b)
+{
+	cout << a << "\t" << b << "\n";
+
+	return 1;
+}
+
 
 //function defintion 
 void doSomething()
 {
-	std::cout << "Doing something ...\n"; //vaguely menacing ...
+	cout << "Doing something ...\n"; //vaguely menacing ...
+}
+
+void printInputs(int a, int b)
+{
+	cout << a << "\t" << b << "\n";
+}
+
+void printInputs(int a, std::string b, int c)
+{
+	cout << a << "\t" << b << "\t" << c << "\n";
 }

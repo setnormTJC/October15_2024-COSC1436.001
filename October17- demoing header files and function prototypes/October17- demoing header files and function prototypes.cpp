@@ -8,6 +8,8 @@
 using std::cout; 
 using std::string; 
 
+
+
 /*Can be useful for organizing your code*/
 namespace MySpace
 {
@@ -21,13 +23,21 @@ namespace MySpace
 
 int main()
 {
-	doSomething(); 
 
-	cout << doSomethingElse(42) << "\n";
+	printInputs(1, 2); 
 
-	using namespace MySpace; 
+	int num = 4232; 
+	printInputs(5, "stringy", num); //this is an example of an "overloaded function"
 
+	//doSomething(); 
+
+	//cout << doSomethingElse(42) << "\n";
+
+	////doSomethingElse(1, 3);
+
+	////using namespace MySpace; 
+
+	////cout << MySpace::a << "\n";
 	//cout << MySpace::a << "\n";
-	cout << a << "\n";
 }
 
